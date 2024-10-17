@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Futura', sans-serif;
+}
+
+body {
+    background-color: #FFF5EE;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 50px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    font-family: 'Darker Grotesque', sans-serif;
+    color: #3F2919;
+    margin-bottom: 40px;
+}
+header nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.logo img {
+    width: 50px;
+    height: 50px;
+}
+
+
+.links {
+  display: flex;
+  justify-content: space-between; 
+  padding: 20px;
+  margin-top: -35px;
+  margin-right: -50px;
+}
+
+.links a {
+  text-decoration: none;
+  color: #2D1300; 
+  font-size: 18px;
+  padding: 20px;
+}
+
+.links a:hover {
+  text-decoration: underline;
+  color: #FF9C53
+}
+
+.new-image img {
+    display: flex;
+    justify-content: center;
+    width: 40px;
+    height: auto;
+    margin-left: 30px; 
+
+}
+.project {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.project-info {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    font-size: 2.5rem;
+}
+
+.image-box {
+    flex: 1;
+    position: relative;
+}
+
+.image-box img {
+    width: 90%;
+    border-radius: 0px;
+}
+
+.project-title {
+    position: absolute;
+    bottom: 20px;
+    left: 40px;
+    color: #FFF5EE;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.position-box {
+    flex: 0.2;
+    text-align: left;
+}
+
+.position-box h2 {
+    font-size: 100px;
+    color: #FFC9A0;
+    font-family: 'Darker Grotesque', sans-serif;
+    margin-top: -30px;
+    margin-left: 150px;
+}
+.position-box h3 {
+    font-size: 50px;
+    color: #FFC9A0;
+    font-family: 'Darker Grotesque', sans-serif;
+    margin-left: 150px;
+  
+}
+.project-thumbnail {
+    flex: 1;
+    text-align: right;
+}
+
+.project-thumbnail img {
+    width: 50%;
+}
